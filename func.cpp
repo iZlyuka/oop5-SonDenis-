@@ -6,7 +6,6 @@ using namespace std;
 double* create(int a) {
     double* mas = new double[a];
     return mas;
-    del(mas);
 }
 
 double* filling(int a) {
@@ -16,7 +15,6 @@ double* filling(int a) {
         mass[i] = rand();
     }
     return mass;
-    del(mass);
 }
 
 void show(int a) {
